@@ -60,7 +60,7 @@ $htmlContent = '
     <p>This email is sent from the PHP script with attachment.</p> '; 
  
 // Header for sender info  
-$headers = "From: innoda.nilanjan@gmail.com";
+$headers = "From: example@example.com";
 // Boundary  
 $semi_rand = md5(time());  
 $mime_boundary = "==Multipart_Boundary_x{$semi_rand}x";  
